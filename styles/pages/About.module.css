@@ -1,0 +1,35 @@
+.body{
+    width: 100%;
+    text-align: center;
+}
+
+.logos{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.e{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.copy{
+    font-size: 1.3em;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.copy a{
+    text-decoration: none;
+    color: blueviolet;
+    transition: 1s;
+}
+
+.copy a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
